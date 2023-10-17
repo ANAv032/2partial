@@ -1,0 +1,29 @@
+https://replit.com/join/fpciydmkyg-ana-valeriava16
+#Data:Average grade (0-100)
+#Classroom particiption (YES/NO)
+#Project score (0-100)
+
+#if the average grade is greater than or equal to 75 and classroom participation is "YES" the student is in good academic standing.
+
+#If the projet score is greater than 90, the student recives a distinction.
+
+#If the average grade is less than 60 or classroom participation is "NO" the student needs to improve their performance.
+
+#print in condition messages
+
+
+average_grade =int (input("Average grade"))
+class_participation = str(input("Class participation Yes or No"))
+project_score = 92
+if average_grade >= 75 and class_participation == "YES":
+  print("Student is in good academic standing")
+if project_score > 90:
+     print("Student Receives a distinction.")
+  
+else: 
+  print("invalid answer")
+
+if project_score <= 60 and class_participation == "NO":
+       print("Student needs to improve their performance.")
+if project_score < 60:
+     print("Student needs to improve their performance.")
