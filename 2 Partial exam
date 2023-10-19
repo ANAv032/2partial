@@ -1,0 +1,23 @@
+def care_for_ruby(temperature, humidity, day_of_week):
+  if temperature >= 20 and temperature <= 30:
+    print("Ruby is in good conditions")
+
+  elif temperature < 20:
+      print("Bring ruby inside the house and turn on the fan")
+  if day_of_week in ["Tusday","Thursday","saturday"]:
+      print("water ruby")
+
+  elif humidity < 20:
+    print("You should water Ruby")
+
+  elif humidity >= 20 and humidity <= 22:
+     print("humidity is suitable") 
+
+  elif humidity > 22 and day_of_week ["Monday","Wensdaday","Fraiday", "Sunday"]:
+     print("Do not water Ruby")    
+    
+  else:
+    print("Invalid answer")
+env_temperature = float(input("Enter the environment temperature in degrees Celsius: "))
+env_humidity = float(input("Enter the environment humidity percentage: "))
+day_of_week = input("Enter the day of the week: ")
